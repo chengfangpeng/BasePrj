@@ -12,10 +12,6 @@ import cnwir.com.baseprj.ui.BaseActivity;
 
 
 public class MainActivity extends BaseActivity {
-    @InjectView(R.id.textView)
-    TextView tv;
-    @InjectView(R.id.button)
-    Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,17 +19,6 @@ public class MainActivity extends BaseActivity {
         setContentView(R.layout.activity_main);
 
         ButterKnife.inject(this);
-        tv.setText("i am a test");
-        btn.setText("you are sb");
-
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                tv.setText("you are big sb!");
-
-            }
-        });
 
     }
 
