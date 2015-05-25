@@ -29,8 +29,8 @@ public class App extends Application {
     }
 
     /**
-     * ÃèÊö£ºAndroid-Universal-Image-Loader ³õÊ¼»¯
-     * ÎÄµµ½éÉÜ£ºhttps://github.com/nostra13/Android-Universal-Image-Loader
+     * åˆå§‹åŒ–Android-Universal-Image-Loader é…ç½®
+     * æ–‡æ¡£åœ°å€ https://github.com/nostra13/Android-Universal-Image-Loader
      */
     private static void initImageLoad(Context context) {
 
