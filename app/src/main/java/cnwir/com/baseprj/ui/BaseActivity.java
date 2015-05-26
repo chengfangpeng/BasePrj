@@ -28,5 +28,9 @@ public class BaseActivity extends FragmentActivity{
         };
     }
 
-
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        RequestManager.cancelAllRequest(this);
+    }
 }

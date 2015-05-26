@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/app/build.gradle" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/cnwir/com/baseprj/App.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/cnwir/com/baseprj/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cnwir/com/baseprj/api/RequestURL.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/cnwir/com/baseprj/view/list/DropDownListView.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

@@ -13,6 +13,8 @@
     <string name="drop_down_list_footer_default_text">更多</string>
     <string name="drop_down_list_footer_loading_text">加载中…</string>
     <string name="drop_down_list_footer_no_more_text">没有更多了</string>
-
     <string name="image_content">Image</string>
+
+    <!-- app-->
+    <string name="double_click_exit">再点击一次退出应用</string>
 </resources>
