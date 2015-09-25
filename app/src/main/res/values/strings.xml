@@ -17,4 +17,7 @@
 
     <!-- app-->
     <string name="double_click_exit">再点击一次退出应用</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_img_loader">ImgLoaderActivity</string>
+    <string name="title_activity_sqlite_demo">SqliteDemoActivity</string>
 </resources>

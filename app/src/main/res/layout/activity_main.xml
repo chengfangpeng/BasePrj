@@ -1,22 +1,32 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:listViewAttr="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
 
-    <cnwir.com.baseprj.view.list.DropDownListView
-        android:id="@+id/pull_listview"
+
+    >
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawSelectorOnTop="false"
-        android:paddingBottom="10dp"
-        listViewAttr:isAutoLoadOnBottom="true"
-        listViewAttr:isDropDownStyle="true"
-        listViewAttr:isOnBottomStyle="true"
-
-        >
+        android:orientation="vertical">
 
 
-    </cnwir.com.baseprj.view.list.DropDownListView>
+        <Button
+            android:id="@+id/img_loader_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android-Universal-Image-Loader"
 
 
-</RelativeLayout>
+            />
+
+        <Button
+            android:id="@+id/use_sqlite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="sqlite的使用" />
+    </LinearLayout>
+
+</ScrollView>

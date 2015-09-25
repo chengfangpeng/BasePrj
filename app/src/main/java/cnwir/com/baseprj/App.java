@@ -8,6 +8,7 @@ import com.nostra13.universalimageloader.cache.memory.impl.LruMemoryCache;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
+import com.squareup.leakcanary.LeakCanary;
 
 /**
  * Created by heaven on 2015/5/15.
@@ -21,6 +22,7 @@ public class App extends Application {
         super.onCreate();
         sContext = getApplicationContext();
         initImageLoad(sContext);
+            LeakCanary.install(this);
     }
 
     public static Context getContext() {

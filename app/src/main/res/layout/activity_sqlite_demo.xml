@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cnwir.com.baseprj.ui.sqlitedemo.SqliteDemoActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="数据库添加数据"
+        />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="更新数据"
+        />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="删除一个数据"
+        />
+    <Button
+        android:id="@+id/query_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="查看多有的数据"
+        />
+
+    <TextView
+        android:id="@+id/showalldata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
+</ScrollView>

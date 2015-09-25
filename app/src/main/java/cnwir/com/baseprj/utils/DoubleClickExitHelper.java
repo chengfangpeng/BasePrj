@@ -40,7 +40,9 @@ public class DoubleClickExitHelper {
                 mToast.cancel();
                 mToast = null;
             }
-            AppManager.getAppManager().appExit(activity);
+//            AppManager.getAppManager().appExit(activity);
+            android.os.Process.killProcess(android.os.Process.myPid());
+            System.exit(0);
             return true;
 
         }else {
